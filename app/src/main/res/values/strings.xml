@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EspressoPlayGround</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_text">TextActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="checkbox1">CheckBox1</string>
+    <string name="checkbox3">CheckBox3</string>
+    <string name="ev_only_text">I have no id/hint</string>
+    <string name="et_only_hint">I have no text/id</string>
+    <string name="tv_only_text">Only text set</string>
+    <string name="tv_only_hint">Only hint set</string>
+    <string name="fail_login_message">Fail to login</string>
+    <string name="successfully_login_message">Successfully logged</string>
+    <string name="title_activity_logged">LoggedActivity</string>
+    <string name="title_activity_toast">ToastActivity</string>
+    <string name="im_a_toast">I am a toast</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_week">Menu week</string>
+</resources>
