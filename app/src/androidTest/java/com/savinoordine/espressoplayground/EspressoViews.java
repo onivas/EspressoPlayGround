@@ -12,6 +12,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.Espresso.pressBack;
 import static android.support.test.espresso.action.ViewActions.clearText;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.doubleClick;
@@ -21,7 +22,6 @@ import static android.support.test.espresso.matcher.ViewMatchers.hasFocus;
 import static android.support.test.espresso.matcher.ViewMatchers.isChecked;
 import static android.support.test.espresso.matcher.ViewMatchers.isClickable;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static android.support.test.espresso.matcher.ViewMatchers.isRoot;
 import static android.support.test.espresso.matcher.ViewMatchers.withHint;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 
@@ -55,7 +55,7 @@ public class EspressoViews {
     public void tearDown() {
 
         // press back
-        onView(isRoot()).perform(ViewActions.pressBack());
+        pressBack();
     }
 
     /**
@@ -100,7 +100,7 @@ public class EspressoViews {
     }
 
     /**
-     * type, clear and type again on EditText
+     * type on EditText already with text
      */
     @Test
     public void editTextText() {
