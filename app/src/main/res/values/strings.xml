@@ -27,4 +27,5 @@
     <string name="im_a_toast">I am a toast</string>
     <string name="menu_info">Info</string>
     <string name="menu_week">Menu week</string>
+    <string name="title_activity_listing">ListingActivity</string>
 </resources>

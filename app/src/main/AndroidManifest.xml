@@ -40,6 +40,10 @@
             android:name=".LoggedActivity"
             android:label="@string/title_activity_logged" >
         </activity>
+        <activity
+            android:name=".ListingActivity"
+            android:label="@string/title_activity_listing" >
+        </activity>
     </application>
 
 </manifest>
