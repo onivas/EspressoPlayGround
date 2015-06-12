@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.savinoordine.espressoplayground.R;
@@ -25,7 +26,8 @@ public class ListingAdapter extends RecyclerView.Adapter<ListingAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.mTextView.setText(mDataset[position].getTitle());
+        holder.mTitleTextView.setText(mDataset[position].getTitle());
+        holder.mNumberTextView.setText(mDataset[position].getNumber());
 
     }
 
@@ -36,11 +38,13 @@ public class ListingAdapter extends RecyclerView.Adapter<ListingAdapter.ViewHold
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView mTextView;
+        public Button mTitleTextView;
+        public TextView mNumberTextView;
 
         public ViewHolder(View v) {
             super(v);
-            mTextView = (TextView) v.findViewById(R.id.item_title);
+            mTitleTextView = (Button) v.findViewById(R.id.item_title);
+            mNumberTextView = (TextView) v.findViewById(R.id.item_number);
         }
     }
 

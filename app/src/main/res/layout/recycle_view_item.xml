@@ -3,13 +3,19 @@
     android:layout_width="fill_parent"
     android:layout_height="80dp">
 
-    <TextView
+    <Button
         android:id="@+id/item_title"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/darker_gray"
         android:layout_marginTop="10dp"
-        android:gravity="center"
+        android:layout_marginStart="50dp"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:textSize="25dp" />
 
 </RelativeLayout>

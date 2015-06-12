@@ -22,22 +22,22 @@ public class ListingActivity extends ActionBarActivity {
         setContentView(R.layout.activity_listing);
 
         mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-        
+
         ItemDataSample ids[] = {
-                new ItemDataSample("One"),
-                new ItemDataSample("Two"),
-                new ItemDataSample("Three"),
-                new ItemDataSample("Four"),
-                new ItemDataSample("Five"),
-                new ItemDataSample("Six"),
-                new ItemDataSample("Seven"),
-                new ItemDataSample("Eigth"),
-                new ItemDataSample("Nine"),
-                new ItemDataSample("Ten"),
-                new ItemDataSample("Eleven"),
-                new ItemDataSample("Twelve"),
-                new ItemDataSample("Thirteen"),
-                new ItemDataSample("Fourteen")};
+                new ItemDataSample("One", "1"),
+                new ItemDataSample("Two", "2"),
+                new ItemDataSample("Three", "3"),
+                new ItemDataSample("Four", "3"),
+                new ItemDataSample("Five", "3"),
+                new ItemDataSample("Six", "4"),
+                new ItemDataSample("Seven", "5"),
+                new ItemDataSample("Eigth", "5"),
+                new ItemDataSample("Nine", "6"),
+                new ItemDataSample("Ten", "7"),
+                new ItemDataSample("Eleven", "10"),
+                new ItemDataSample("Twelve", "12"),
+                new ItemDataSample("Thirteen", "13"),
+                new ItemDataSample("Fourteen", "14")};
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
