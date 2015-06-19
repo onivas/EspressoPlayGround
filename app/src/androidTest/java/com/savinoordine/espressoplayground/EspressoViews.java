@@ -1,6 +1,7 @@
 package com.savinoordine.espressoplayground;
 
 import android.support.test.espresso.action.ViewActions;
+import android.support.test.filters.RequiresDevice;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
@@ -62,7 +63,7 @@ public class EspressoViews {
      * This test is executed on device only.
      * Change @RequiresDevice to @Test to see it on emulator
      */
-    @Test
+    @RequiresDevice
     public void checkBox() {
 
         // find checkbox using TEXT
