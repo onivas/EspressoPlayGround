@@ -20,6 +20,7 @@ public class MainActivity extends ActionBarActivity {
     Button listingButton;
     Button viewButton;
     Button loginButton;
+    Button editButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +73,16 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
 
                 Intent i = new Intent(getApplication().getApplicationContext(), LoginActivity.class);
+                startActivity(i);
+            }
+        });
+
+        editButton = (Button) findViewById(R.id.button_edit);
+        editButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i = new Intent(getApplication().getApplicationContext(), EditActivity.class);
                 startActivity(i);
             }
         });

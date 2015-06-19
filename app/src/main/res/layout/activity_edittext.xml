@@ -9,97 +9,55 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.savinoordine.espressoplayground.TextActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/tv_only_hint" />
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/et_only_hint" />
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray" />
-
-    <TextView
-        android:id="@+id/tv_only_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Only id set" />
-
-    <EditText
-        android:id="@+id/id_only_et"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tv_only_text" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ev_only_text" />
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray" />
-
-
-    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/radiobutton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RadioButton1" />
-
-        <RadioButton
-            android:id="@+id/radiobutton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RadioButton2" />
-
-    </RadioGroup>
-
-    <LinearLayout
+        android:id="@+id/edittext1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:orientation="horizontal">
+        android:hint="EditText 1"
+        />
 
-        <CheckBox
-            android:id="@+id/checkbox1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/checkbox1" />
+    <TextView
+        android:text="Foo text"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-        <CheckBox
-            android:id="@+id/checkbox2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Checkbox2" />
+    <TextView
+        android:text="Foo text"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-        <CheckBox
-            android:id="@+id/checkbox3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/checkbox3" />
+    <TextView
+        android:text="Foo text"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-    </LinearLayout>
+    <TextView
+        android:text="Foo text"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="fasd f asd fasd fa"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Foo text"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EditText 2"
+        />
 
 </LinearLayout>

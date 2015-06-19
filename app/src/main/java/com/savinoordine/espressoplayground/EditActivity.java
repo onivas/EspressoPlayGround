@@ -1,7 +1,16 @@
 package com.savinoordine.espressoplayground;
 
-/**
- * Created by savino on 18/06/15.
- */
-public class EditActivity {
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+
+
+public class EditActivity extends ActionBarActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_edittext);
+
+    }
+
 }
