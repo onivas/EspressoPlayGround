@@ -13,8 +13,8 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button__new_activity"
-        android:text="New activity"
+        android:id="@+id/button_intent"
+        android:text="Intent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

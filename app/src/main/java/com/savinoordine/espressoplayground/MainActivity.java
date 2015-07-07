@@ -37,6 +37,7 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+        /*
         activityButton = (Button) findViewById(R.id.button__new_activity);
         activityButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +45,7 @@ public class MainActivity extends ActionBarActivity {
 
             }
         });
+        */
 
         listingButton = (Button) findViewById(R.id.button_listing);
         listingButton.setOnClickListener(new View.OnClickListener() {
